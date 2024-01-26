@@ -20,7 +20,7 @@ document.addEventListener("click", function(){
 
         if(inputUsername !== ""){
            
-            fetch(` https://api.github.com/users/${inputUsername}`)
+            fetch(`https://api.github.com/users/${inputUsername}`)
             .then(response => response.json())
             .then(data => {
                 tarih.textContent= `Joined ${new Date(data.created_at).toLocaleDateString()}`
@@ -40,6 +40,7 @@ document.addEventListener("click", function(){
                 profil.style.backgroundSize = 'cover';
 
             })
+            
             .catch(error => console.error('Error fetching GitHub user data:', error));
         }
     })

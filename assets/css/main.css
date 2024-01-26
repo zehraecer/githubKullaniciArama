@@ -200,3 +200,7 @@ h1{
     line-height: normal;
     margin-left: 20px;
 }
+
+.darkMode{
+    background-color: #222731;
+}
