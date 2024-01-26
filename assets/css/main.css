@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F6F8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.myDiv{
+    width: 730px;
+    height: 69px;
+    display: flex;
+    gap: 524px;
+}
+.myDivRight{
+    display: flex;
+    gap: 16px;
+}
+.formAlani{
+    width: 730px;
+    height: 69px;
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+    display: flex;
+    gap: 250px;
+}
+.search{
+    margin-left:32px;
+    margin-top: 5px;
+}
+input[type="search"] {
+    outline: none;
+    border: none;
+    color: #4B6A9B;
+    font-family: "Space Mono";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+  }
+.arama{
+    width: 350px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 20px;
+}
+.kutu{
+    width: 730px;
+    height: 419px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+    margin-top: 24px;
+}
+.ilkSatir{
+    display: flex;
+    gap: 138px;
+    margin-top: 48px;
+}
+.imgKutu img{
+    width: 117px;
+    height: 117px;
+    border-radius: 117px;
+    margin: 48px 0px 0px 48px;
+}
+.kutu2{
+    width: 480px;
+    height: 85px;
+    display: flex;
+    border-radius: 10px;
+    background: #F6F8FF;
+    justify-content:space-around;
+    align-items: center;
+}
+.kullaniciAdi{
+    margin: 2px 0px 20px 0px;
+}
+h3{
+    color: #222731;
+    font-family: "Space Mono";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.myDivRight button{
+    background-color:#F6F8FF;
+    border: none;
+    margin-bottom: 33px;
+}
+.gonder{
+    border: none;
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+    background: #0079FF;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 175px;
+}
+h4{
+    color: #697C9A;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    margin-top: 2px;
+}
+h2{
+    color: #2B3442;
+    font-family: "Space Mono";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h5{
+    color: #697C9A;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.yazi{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4B6A9B;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    
+}
+.kutu2-repos{
+    color: #4B6A9B;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h1{
+    color: #2B3442;
+    font-family: "Space Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.alt{
+    width: 480px;
+    height: 85px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+.konum ,.twitter, .githubBlog , .github{
+    display: flex;
+}
+
+.konum img{
+    width: 13.753px;
+    height: 20px;
+}
+.twitter img{
+    width: 20px;
+   height: 16.25px;
+}
+.githubBlog img{
+    width: 19.991px;
+    height: 19.945px;
+}
+.github img{
+    width: 20px;
+    height: 19.852px;
+}
+.alt p{
+    color: #4B6A9B;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
