@@ -17,15 +17,6 @@ const profil=document.querySelector(".imgKutu img");
 const kutu = document.querySelector(".kutu")
 
 
-
-
-//     e.preventDefault()
-//     let user = userNameInput.value
-//     console.log(user);
-//     getFetch(user)
-// })
-
-
 async function getFetch(endpoint){
     const data = await fetch(`https://api.github.com/users/${endpoint}`)
     const users = await data.json();
