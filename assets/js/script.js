@@ -1,17 +1,4 @@
-const userNameInput = document.querySelector(".arama");
 const searchBtn = document.querySelector(".form");
-const kullanici = document.querySelector("h2");
-const tarih = document.querySelector("h5");
-const kullaniciAdi = document.querySelector("#kullaniciAdi");
-const bio = document.querySelector(".yazi");
-const repos = document.querySelector(".repos-1");
-const followers = document.querySelector(".followers");
-const following=document.querySelector(".following");
-const konum=document.querySelector(".konumYazisi");
-const twitter = document.querySelector(".twitterYazisi");
-const githubBlog = document.querySelector(".githubBlogYazisi");
-const github = document.querySelector(".githubYazisi")
-const profil=document.querySelector(".imgKutu img");
 
 
 const kutu = document.querySelector(".kutu")
