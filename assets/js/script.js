@@ -1,27 +1,44 @@
 const searchBtn = document.querySelector(".form");
-
-
 const kutu = document.querySelector(".kutu")
+const light = document.querySelector(".light")
+const dark = document.querySelector(".dark")
+const body = document.querySelector("body")
 
 
-async function getFetch(endpoint){
+dark.addEventListener("click", function () {
+    console.log("jrg");
+    body.classList.add("darkMode")
+    dark.style.display = "none"
+    light.style.display = "block"
+
+})
+
+light.addEventListener("click", function () {
+    console.log("fkjdv");
+    body.classList.remove("darkMode")
+    dark.style.display = "block"
+    light.style.display = "none"
+})
+
+
+async function getFetch(endpoint) {
     const data = await fetch(`https://api.github.com/users/${endpoint}`)
     const users = await data.json();
     // console.log(users);
-    return users;   
+    return users;
 }
 
 
 searchBtn.addEventListener("submit", handleSearchForm)
 
-async function handleSearchForm(e){
+async function handleSearchForm(e) {
     e.preventDefault();
-   const searchValue = searchBtn["search"].value
-   console.log(searchValue);
-   const data = await getFetch(searchValue)
+    const searchValue = searchBtn["search"].value
+    console.log(searchValue);
+    const data = await getFetch(searchValue)
     console.log(data);
 
-    return kutu.innerHTML =`
+    return kutu.innerHTML = `
     <div class="imgKutu">
     <img src="${data.avatar_url}">
  </div>
@@ -70,7 +87,7 @@ async function handleSearchForm(e){
     </div>
 </div>
     `
-  
+
 
 }
 

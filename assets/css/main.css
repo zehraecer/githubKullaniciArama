@@ -1,25 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background: #F6F8FF;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 150px;
 }
-.myDiv{
+
+.myDiv {
     width: 730px;
     height: 69px;
     display: flex;
     gap: 524px;
 }
-.myDivRight{
+
+.myDivRight {
     display: flex;
     gap: 16px;
+    margin-left: -7px;
+
+    img {
+        height: 20px;
+        width: 20px;
+    }
+
+    h4 {
+        font-family: Space Mono;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 19.25px;
+        letter-spacing: 2.5px;
+        text-align: right;
+
+    }
 }
-.formAlani{
+
+.formAlani {
     width: 730px;
     height: 69px;
     border-radius: 15px;
@@ -28,10 +48,12 @@ body{
     display: flex;
     gap: 250px;
 }
-.search{
-    margin-left:32px;
+
+.search {
+    margin-left: 32px;
     margin-top: 5px;
 }
+
 input[type="search"] {
     outline: none;
     border: none;
@@ -40,15 +62,17 @@ input[type="search"] {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; 
-  }
-.arama{
+    line-height: 25px;
+}
+
+.arama {
     width: 350px;
     margin-top: 22px;
     margin-bottom: 22px;
     margin-left: 20px;
 }
-.kutu{
+
+.kutu {
     width: 730px;
     height: 419px;
     display: grid;
@@ -58,30 +82,35 @@ input[type="search"] {
     box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
     margin-top: 24px;
 }
-.ilkSatir{
+
+.ilkSatir {
     display: flex;
     gap: 138px;
     margin-top: 48px;
 }
-.imgKutu img{
+
+.imgKutu img {
     width: 117px;
     height: 117px;
     border-radius: 117px;
     margin: 48px 0px 0px 48px;
 }
-.kutu2{
+
+.kutu2 {
     width: 480px;
     height: 85px;
     display: flex;
     border-radius: 10px;
     background: #F6F8FF;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
-.kullaniciAdi{
+
+.kullaniciAdi {
     margin: 2px 0px 20px 0px;
 }
-h3{
+
+h3 {
     color: #222731;
     font-family: "Space Mono";
     font-size: 26px;
@@ -89,12 +118,14 @@ h3{
     font-weight: 700;
     line-height: normal;
 }
-.myDivRight button{
-    background-color:#F6F8FF;
+
+.myDivRight button {
+    background-color: #F6F8FF;
     border: none;
     margin-bottom: 33px;
 }
-.search-2{
+
+.search-2 {
     border: none;
     width: 106px;
     height: 50px;
@@ -107,8 +138,10 @@ h3{
     font-weight: 700;
     line-height: normal;
     margin-left: 175px;
+    cursor: pointer;
 }
-h4{
+
+h4 {
     color: #697C9A;
     text-align: right;
     font-family: "Space Mono";
@@ -119,7 +152,8 @@ h4{
     letter-spacing: 2.5px;
     margin-top: 2px;
 }
-h2{
+
+h2 {
     color: #2B3442;
     font-family: "Space Mono";
     font-size: 26px;
@@ -127,7 +161,8 @@ h2{
     font-weight: 700;
     line-height: normal;
 }
-h5{
+
+h5 {
     color: #697C9A;
     text-align: right;
     font-family: "Space Mono";
@@ -136,7 +171,8 @@ h5{
     font-weight: 400;
     line-height: normal;
 }
-.yazi{
+
+.yazi {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #4B6A9B;
@@ -144,10 +180,12 @@ h5{
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; /* 166.667% */
-    
+    line-height: 25px;
+    /* 166.667% */
+
 }
-.kutu2-repos{
+
+.kutu2-repos {
     color: #4B6A9B;
     font-family: "Space Mono";
     font-size: 13px;
@@ -155,7 +193,8 @@ h5{
     font-weight: 400;
     line-height: normal;
 }
-h1{
+
+h1 {
     color: #2B3442;
     font-family: "Space Mono";
     font-size: 22px;
@@ -164,34 +203,43 @@ h1{
     line-height: normal;
     text-transform: uppercase;
 }
-.alt{
+
+.alt {
     width: 480px;
     height: 85px;
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 40px;
 }
-.konum ,.twitter, .githubBlog , .github{
+
+.konum,
+.twitter,
+.githubBlog,
+.github {
     display: flex;
 }
 
-.konum img{
+.konum img {
     width: 13.753px;
     height: 20px;
 }
-.twitter img{
+
+.twitter img {
     width: 20px;
-   height: 16.25px;
+    height: 16.25px;
 }
-.githubBlog img{
+
+.githubBlog img {
     width: 19.991px;
     height: 19.945px;
 }
-.github img{
+
+.github img {
     width: 20px;
     height: 19.852px;
 }
-.alt p{
+
+.alt p {
     color: #4B6A9B;
     font-family: "Space Mono";
     font-size: 15px;
@@ -201,6 +249,96 @@ h1{
     margin-left: 20px;
 }
 
-.darkMode{
-    background-color: #222731;
+
+.light,
+.light-text {
+    display: none;
+
+}
+
+
+.light,
+.dark {
+    cursor: pointer;
+}
+
+.devfinder-white {
+    display: none;
+}
+
+.darkMode {
+    background-color: #141D2F;
+
+    .devfinder-white {
+        display: block;
+        color: #FFF;
+    }
+
+    .devfinder-black {
+        display: none;
+    }
+
+    .light-text {
+
+        display: block;
+
+
+    }
+
+
+    .dark-text {
+        display: none;
+    }
+
+    input[type="search"] {
+        background-color: #1E2A47;
+    }
+
+    .arama {
+        background-color: #1E2A47;
+
+    }
+
+    .formAlani,
+    .kutu {
+        background-color: #1E2A47;
+        box-shadow: none;
+    }
+
+    .ilkSatir h2,
+    h5 {
+        color: #FFF;
+    }
+
+    .kullaniciAdi a {
+        color: #0079FF;
+    }
+
+    .yazi {
+        color: #FFF;
+        opacity: 75%;
+    }
+
+    .kutu2 {
+        background-color: #141D2F;
+
+        p,
+        h1 {
+            color: #FFF;
+        }
+    }
+
+    .alt p {
+        color: #FFF;
+        opacity: 80%;
+
+    }
+
+    .arama {
+        background-color: #1E2A47;
+        color: #FFF;
+
+    }
+
+
 }
